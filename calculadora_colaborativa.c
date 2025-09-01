@@ -23,6 +23,7 @@ int main(){
         case 3:
             resultado = num1 * num2;
             print("El resultado de la operación es %f",&resultado);
+            break;
         case 4:
             
         default:
