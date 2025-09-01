@@ -17,11 +17,15 @@ int main(){
     scanf("%f", &num2);
     switch(opcion){
         case 1:
-            
+            resultado = num1 + num2;
+            printf("El resultado de la suma es: %.2f\n", resultado);
+            break;
         case 2:
-            
+            num1 - num2 = resultado;
+            printf("El resultado es %d", resultado);
+            break;
         case 3:
-        
+
         case 4:
             if (num2 != 0) {
                 resultado = num1 / num2;
@@ -29,6 +33,9 @@ int main(){
             } else {
                 printf("Error: Division por cero no permitida.\n");
             }
+            break;
+            resultado = num1 * num2;
+            print("El resultado de la operación es %f",&resultado);
             break;
         default:
             printf("Opcion no valida.\n");
