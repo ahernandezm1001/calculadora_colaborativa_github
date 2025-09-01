@@ -25,9 +25,11 @@ int main(){
             printf("El resultado es %d", resultado);
             break;
         case 3:
-            
+            resultado = num1 * num2;
+            print("El resultado de la operación es %f",&resultado);
+            break;
         case 4:
-        
+            
         default:
             printf("Opcion no valida.\n");
     }
