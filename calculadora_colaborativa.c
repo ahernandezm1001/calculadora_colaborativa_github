@@ -19,7 +19,9 @@ int main(){
         case 1:
             
         case 2:
-            
+            num1 - num2 = resultado;
+            printf("El resultado es %d", resultado);
+            break;
         case 3:
             
         case 4:
