@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include <stdio.h>
 #include<stdlib.h>
 
 int main(){
@@ -25,11 +25,18 @@ int main(){
             printf("El resultado es %d", resultado);
             break;
         case 3:
+
+        case 4:
+            if (num2 != 0) {
+                resultado = num1 / num2;
+                printf("El resultado de la division es: %.2f\n", resultado);
+            } else {
+                printf("Error: Division por cero no permitida.\n");
+            }
+            break;
             resultado = num1 * num2;
             print("El resultado de la operación es %f",&resultado);
             break;
-        case 4:
-            
         default:
             printf("Opcion no valida.\n");
     }
