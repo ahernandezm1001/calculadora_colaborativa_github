@@ -17,7 +17,9 @@ int main(){
     scanf("%f", &num2);
     switch(opcion){
         case 1:
-            
+            resultado = num1 + num2;
+            printf("El resultado de la suma es: %.2f\n", resultado);
+            break;
         case 2:
             num1 - num2 = resultado;
             printf("El resultado es %d", resultado);
