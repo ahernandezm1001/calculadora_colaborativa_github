@@ -25,7 +25,9 @@ int main(){
             printf("El resultado es %d", resultado);
             break;
         case 3:
-
+            resultado = num1 * num2;
+            printf("El resultado es %d", resultado);
+            break;
         case 4:
             if (num2 != 0) {
                 resultado = num1 / num2;
