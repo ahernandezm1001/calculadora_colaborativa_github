@@ -1,3 +1,12 @@
+/*Integrantes
+
+MARTINEZ HERNANDEZ URIEL
+PATLAN DURAN DAVID
+PANIAGUA ESCAMILLA JORGE
+HERNANDEZ MEJIA ALVARO
+
+*/
+
 #include <stdio.h>
 #include<stdlib.h>
 
@@ -35,9 +44,6 @@ int main(){
             } else {
                 printf("Error: Division por cero no permitida.\n");
             }
-            break;
-            resultado = num1 * num2;
-            print("El resultado de la operación es %f",&resultado);
             break;
         default:
             printf("Opcion no valida.\n");
